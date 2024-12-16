@@ -1,7 +1,3 @@
-Hier ist eine vollständige README.md inklusive eines erweiterten Beispiels, das alle Funktionen von ShadowCode abdeckt, sowie ein eigenständiges Beispiel-Skript, das du für die Demonstration verwenden kannst.
-
-README.md
-
 # Byte 1.0
 
 **Byte 1.0** ist eine minimalistische 2D-Spiele-Engine, die mit den eigens entwickelten Skriptsprachen **ShadowCode** und **ShadowScript** arbeitet. Diese Engine bietet Entwicklern eine intuitive Möglichkeit, Spiele mit einer einfachen Syntax und umfangreicher Steuerung zu erstellen.
@@ -92,24 +88,26 @@ Beide Sprachen teilen sich dieselbe Syntax und ermöglichen das einfache Laden v
 1. Klone das Repository:
    ```bash
    git clone https://github.com/dein-benutzername/ByteEngine.git
-   cd ByteEngine```
+   cd ByteEngine
+   ```
 
 	**2.	Installiere Abhängigkeiten:**
 	•	Linux (Ubuntu):
 
 ```bash
-sudo apt-get install libsdl2-dev libsdl2-image-dev```
+sudo apt-get install libsdl2-dev libsdl2-image-dev
+```
 
 
-	•	Windows:
-	•	Lade SDL2 von libsdl.org herunter und integriere die Bibliotheken.
-	•	MacOS:
+	•	**Windows:**
+	•	**Lade SDL2 von libsdl.org herunter und integriere die Bibliotheken.**
+	•	**MacOS:**
 
 ```bash
 brew install sdl2 sdl2_image
 ```
 
-	3.	Baue das Projekt:
+	3. **Baue das Projekt:**
 
 ```bash
 mkdir build && cd build
@@ -122,7 +120,7 @@ make
 ```Bash
 ./ByteEngineDemo
 ```
-##Beispiel
+### Beispiel
 
 Hier ist ein vollständiges Beispiel, das alle Funktionen von ShadowCode demonstriert:
 
@@ -173,19 +171,19 @@ while (true [
 ```
 Speichere dieses Beispiel in einer Datei namens example.sdc und führe es mit der Byte-Engine aus.
 
-##Geplante Features
+### Geplante Features
 	•	Erweiterung der Physik-Engine (Kollisionen, Gravitation).
 	•	Unterstützung für erweiterte Animationen.
 	•	Einführung von 3D-Rendering in zukünftigen Versionen.
 
-##Mitmachen
+### Mitmachen
 
 Möchtest du mitentwickeln? Folge diesen Schritten:
 	1.	Forke das Repository.
 	2.	Erstelle einen neuen Branch.
 	3.	Reiche einen Pull-Request ein.
 
-##Lizenz
+### Lizenz
 
 Byte 1.0 ist Open-Source, jedoch mit Einschränkungen für kommerzielle Nutzung. Siehe LICENSE für Details.
 
