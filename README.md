@@ -93,16 +93,17 @@ Beide Sprachen teilen sich dieselbe Syntax und ermöglichen das einfache Laden v
    ```
 
 	**2.	Installiere Abhängigkeiten:**
-	•	Linux (Ubuntu):
+Linux (Ubuntu):
 
 ```bash
 sudo apt-get install libsdl2-dev libsdl2-image-dev
 ```
 
-
-	•	**Windows:**
-	•	**Lade SDL2 von libsdl.org herunter und integriere die Bibliotheken.**
-	•	**MacOS:**
+Windows:
+``` TXT
+	Lade SDL2 von libsdl.org herunter und integriere die Bibliotheken.
+```
+MacOS:
 
 ```bash
 brew install sdl2 sdl2_image
